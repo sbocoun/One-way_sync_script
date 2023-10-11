@@ -6,7 +6,7 @@ A simple one-way synchronization script written in Python.
 **Verbose description:** One-way synchronization script between two chosen directories. After execution, and then periodically after a certain duration (the chosen frequency), the contents of the replica directory are modified to match the source directory.
 
 | Positional arguments: |  |
-| --- | --- |
+| :--- | --- |
 | source_dir |  The system path of the desired source directory. An error will be raised if the path contains a <br /> space but is not enclosed in quotes.   |
 | replica_dir |  The system path of the desired replica directory. An error will be raised if the path contains a <br /> space but is not enclosed in quotes. |
 	
