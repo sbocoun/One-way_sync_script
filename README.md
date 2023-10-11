@@ -17,4 +17,4 @@ directory.
 |-f FREQUENCY, --frequency FREQUENCY | The duration (in seconds) between synchronizations. Defaults to 60 seconds. |
 |-l LOG_DIR, --log_dir LOG_DIR | If a log file already exists, you may enter its directory path. <br /> If it doesn't, or you would like to create a log in a different directory, <br /> please enter the desired directory path. If the path contains a space, <br /> please surround it with quotes. If log_dir is left blank, or the inputted <br /> path is invalid, the log file will be created in the current working directory. |
 
-**Additional Restrictions:** source_dir and replica_dir cannot be subdirectories of each other, nor can they be the same directory.
+**Additional Restrictions:** source_dir and replica_dir cannot be subdirectories of each other, nor can they be the same directory. If such directories are chosen, users will be promted to either enter a valid replica directory or exit the script.
