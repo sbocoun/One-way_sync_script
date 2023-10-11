@@ -3,8 +3,7 @@ A simple one-way synchronization script written in Python.
 
 **usage:** one_way_sync.py  [-h]  [-f FREQUENCY]  [-l LOG_DIR]  source_dir  replica_dir
 
-**Verbose description:** One-way synchronization script between two chosen directories. After execution, and then periodically after a certain duration (the chosen frequency), the contents of the replica directory are modified to match the source  
-directory.
+**Verbose description:** One-way synchronization script between two chosen directories. After execution, and then periodically after a certain duration (the chosen frequency), the contents of the replica directory are modified to match the source directory.
 
 | Positional arguments: |  |
 | --- | --- |
