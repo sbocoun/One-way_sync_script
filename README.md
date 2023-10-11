@@ -12,7 +12,7 @@ directory.
 | replica_dir |  The system path of the desired replica directory. An error will be raised if the path contains a <br /> space but is not enclosed in quotes. |
 	
 | options: |  |
-| --- | --- |
+| :--- | --- |
 | -h, --help | Show this help message and exit. |
 |-f FREQUENCY, --frequency FREQUENCY | The duration (in seconds) between synchronizations. Defaults to 60 seconds. |
 |-l LOG_DIR, --log_dir LOG_DIR | If a log file already exists, you may enter its directory path. <br /> If it doesn't, or you would like to create a log in a different directory, <br /> please enter the desired directory path. If the path contains a space, <br /> please surround it with quotes. If log_dir is left blank, or the inputted <br /> path is invalid, the log file will be created in the current working directory. |
